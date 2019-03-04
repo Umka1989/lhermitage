@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <link rel="shortcut icon" sizes="32x32" href="./rosbank_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/MainStyles.css">
+</head>
+<body>
+<script type="text/babel">
+
+    class MenuElement extends React.Component{
+
+        render(){
+            return(
+                <div className = {this.props.className}>
+                <a href={this.props.link}>
+                    <h3>{this.props.header}</h3>
+                    <p>{this.props.description}</p>
+                </a>
+                </div>
+            )
+        }
+    }
+
+    class MainPage extends React.Component{
+
+
+        render(){
+            let mmHeader = 'Meeting Minutes';
+            let mmDescription= 'Отчеты по встречам с клиентами';
+            let mmLink="meeting_minutes.html";
+
+            let plansHeader = 'Планы 2019';
+            let plansDescription ='Данные по планам вертикали на 2019 год';
+            let plansLink= "plans.html";
+            return (
+                    <div>
+                        <div className="indexLogoBox">
+                            <img id="future_img" src="./future_is_you.svg" />
+                            <img id="lhermitage_img" src="./lhermitage_logo.png" />
+                            <div className="clearFix"></div>
+                        </div>
+                        <div className="menuItemsConteiner">
+                        <MenuElement
+                            className="menuElement meLeft"
+                            link={mmLink}
+                            header={mmHeader}
+                            description={mmDescription}
+                        />
+                        <MenuElement
+                            className="menuElement meRight"
+                            link={plansLink}
+                            header={plansHeader}
+                            description={plansDescription}
+                        />
+                        </div>
+                        <div className="clearFix"></div>
+                    </div>
+            )
+        }
+    }
+
+
+    ReactDOM.render(
+        <MainPage />,
+        document.getElementById('app')
+    )
+</script>
+<div id="app">
+</div>
+
+</body>
+</html>

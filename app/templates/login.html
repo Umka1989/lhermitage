@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <link rel="stylesheet" href="../static/css/MainStyles.css">
+    <link rel="stylesheet" href="../static/css/loginPage.css">
+    <link rel="shortcut icon" sizes="32x32" href="./rosbank_icon.ico" type="image/x-icon">
+</head>
+<body>
+<script type="text/babel">
+
+
+
+class LoginForm extends React.Component{
+
+    render (){
+
+        return(
+            <div className={this.props.className}>
+            <h3>Авторизация</h3>
+            <p>{this.props.mistake}</p>
+            <form name="login_form" className="mainPageForm" method="post">
+                <input type="hidden" name="type" value="login"></input>
+                <input type="text" placeholder="Ваш RB" name="login" ></input>
+                <input type="password" placeholder="Укажите пароль" name="pswrd"></input>
+                <input type="submit" value="Войти"></input>
+                <button onClick={this.props.onRegister}>У меня нет пароля</button>
+            </form>
+            </div>
+        )
+    }
+
+};
+
+class RegisterForm extends React.Component{
+
+    render() {
+        return (
+            <div className={this.props.className}>
+            <h3>Регистрация</h3>
+            <p>{this.props.mistake}</p>
+            <form name="register_form" className="mainPageForm" method="post">
+                <input type="hidden" name="type" value="register"></input>
+                <input type="text" placeholder="Ваш RB" name="login"></input>
+                <input type="password" placeholder="Укажите пароль" name="pswrd"></input>
+                <input type="password" placeholder="Повторите пароль" name="pswrd_check"></input>
+                <input type="submit" value="Зарегистрироваться"></input>
+            </form>
+            </div>
+        )
+}
+}
+
+
+class Form extends React.Component{
+    render(){
+        if (this.props.type == 'login'){
+            return <LoginForm
+                    className={this.props.className}
+                    onRegister={this.props.handleRegister}
+                    mistake={this.props.mistake}
+            />;
+        } else {
+            return <RegisterForm
+                className={this.props.className}
+                mistake={this.props.mistake}
+            />;
+        }
+    }
+
+}
+
+
+
+class MainPage extends React.Component {
+    constructor(props){
+        super(props);
+
+        this.state = {
+            type: '{{status}}',
+            mistake: '{{mistake}}'
+        };
+
+        this.handleRegister = this.handleRegister.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+
+    }
+
+
+    handleSubmit(event){
+        const data = new FormData(event.target);
+        console.log('почти фетч')
+        console.log(data);
+        fetch('/login.html', {
+            method: 'POST',
+            body: data,
+    });
+    }
+
+
+
+    handleRegister(event){
+        let existingType = this.state.type;
+
+        this.setState({
+            type: existingType == 'login' ? 'register': 'login',
+            mistake: ''
+        });
+
+       event.preventDefault();
+    }
+
+
+    render() {
+        return (
+            <Form
+                className="loginForm"
+                type = {this.state.type}
+                handleRegister={this.handleRegister}
+                handleSubmit={this.handleSubmit}
+                mistake = {this.state.mistake}
+            />
+        )
+    }
+}
+
+ReactDOM.render(
+    <MainPage />,
+    document.getElementById('app')
+)
+
+</script>
+<div id="app">
+
+</div>
+</body>
+</html>

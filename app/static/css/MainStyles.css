@@ -1,0 +1,204 @@
+
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background: linear-gradient(180deg, rgb(51, 60, 96), rgb(28, 35, 55));
+    background-repeat: no-repeat;
+    min-height: 100%;
+    margin: 0;
+    display: block;
+}
+
+ul{
+    list-style-type : none;
+    padding: 0px 0px 0px 0px;
+}
+
+.bullet {
+    color: white;
+    padding: 10px 5px 5px 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(15, 15, 45);
+    clear: both;
+}
+
+.bullet *{
+    margin: 0px;
+}
+
+
+.bullet_points{
+
+
+    clear: both;
+    height: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.bullet_points *{
+
+    height: auto;
+    margin: auto;
+    min-height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.bullet_points div{
+    width: 25%;
+    float: left;
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    flex-direction:column;
+
+}
+
+.bullet_points textarea{
+    width: 65%;
+    float: left;
+}
+
+.bullet_points button{
+    width: 10%;
+    float: right;
+}
+/*
+button {
+    background-color: ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+*/
+button {
+    background-color: rgb(15, 15, 45);
+    border-width: 2px;
+    color: white;
+    border-style: solid;
+    /*border-image: linear-gradient(90deg, rgb(36, 41, 131), rgb(28, 103, 144)) 1 100%;*/
+    border-color: rgb(43, 93, 196);
+    border-radius: 10px;
+}
+
+button:hover{
+    background: linear-gradient(90deg, rgb(36, 41, 131), rgb(28, 103, 147));
+
+}
+
+/*
+.button {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+*/
+
+
+.menuElement{
+    box-sizing: border-box;
+    width: 50%;
+
+    text-align: center;
+    background-color: rgb(15, 15, 45);
+}
+
+.menuElement a{
+    text-decoration: none;
+        color: white;
+}
+
+.meLeft{
+    float: left;
+
+}
+
+.meRight{
+    float: right;
+}
+
+.clearFix{
+    clear: both;
+
+}
+
+.loginForm{
+    background: linear-gradient(180deg, rgb(51, 60, 96), rgb(28, 35, 55));
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    width: 300px;
+    height: 290px;
+
+    margin-top: 10%;
+}
+
+
+.loginForm {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.loginForm h3 {
+    padding-top: 15px;
+}
+
+.loginForm input{
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+.loginForm * {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#future_img{
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+
+#lhermitage_img{
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 33%;
+    float: right;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.menuItemsConteiner{
+    border: 5px solid green;
+    clear: both;
+}
+
+
+
+

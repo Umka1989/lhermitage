@@ -1,0 +1,561 @@
+INFO    [2019-01-13 12:27:43,922] Server starts
+INFO    [2019-01-13 12:28:00,059] Server starts
+DEBUG   [2019-02-25 18:20:15,981] я в логине
+DEBUG   [2019-02-25 18:21:31,770] я в логине
+DEBUG   [2019-02-25 18:22:13,274] я в логине
+DEBUG   [2019-02-25 18:22:19,188] я в логине
+DEBUG   [2019-02-25 18:23:28,285] я в логине
+DEBUG   [2019-02-25 18:23:28,286] request method GET
+DEBUG   [2019-02-25 18:23:32,539] я в логине
+DEBUG   [2019-02-25 18:23:32,539] request method GET
+DEBUG   [2019-02-25 18:54:53,860] я в логине
+DEBUG   [2019-02-25 18:54:53,861] request method GET
+DEBUG   [2019-02-25 18:55:31,467] я в логине
+DEBUG   [2019-02-25 18:55:31,467] request method GET
+DEBUG   [2019-02-25 18:56:10,666] я в логине
+DEBUG   [2019-02-25 18:56:10,666] request method GET
+DEBUG   [2019-02-25 19:01:49,869] я в логине
+DEBUG   [2019-02-25 19:01:49,869] request method GET
+DEBUG   [2019-02-25 19:01:57,266] я в логине
+DEBUG   [2019-02-25 19:01:57,267] request method GET
+DEBUG   [2019-02-25 19:02:01,869] я в логине
+DEBUG   [2019-02-25 19:02:01,870] request method GET
+DEBUG   [2019-02-25 19:04:03,883] я в логине
+DEBUG   [2019-02-25 19:04:03,884] request method GET
+DEBUG   [2019-02-25 19:05:17,760] я в логине
+DEBUG   [2019-02-25 19:05:17,760] request method GET
+DEBUG   [2019-02-25 19:05:23,424] я в логине
+DEBUG   [2019-02-25 19:05:23,424] request method GET
+DEBUG   [2019-02-25 19:07:01,606] я в логине
+DEBUG   [2019-02-25 19:07:01,606] request method GET
+DEBUG   [2019-02-25 19:07:11,078] я в логине
+DEBUG   [2019-02-25 19:07:11,079] request method GET
+DEBUG   [2019-02-25 19:07:31,763] я в логине
+DEBUG   [2019-02-25 19:07:31,764] request method GET
+DEBUG   [2019-02-25 19:09:15,080] я в логине
+DEBUG   [2019-02-25 19:09:15,081] request method GET
+DEBUG   [2019-02-25 19:09:30,559] я в логине
+DEBUG   [2019-02-25 19:09:30,560] request method GET
+DEBUG   [2019-02-25 19:09:40,673] я в логине
+DEBUG   [2019-02-25 19:09:40,674] request method GET
+DEBUG   [2019-02-25 19:12:53,937] я в логине
+DEBUG   [2019-02-25 19:12:53,938] request method GET
+DEBUG   [2019-02-25 19:13:46,662] я в логине
+DEBUG   [2019-02-25 19:13:46,662] request method GET
+DEBUG   [2019-02-25 19:13:52,150] я в логине
+DEBUG   [2019-02-25 19:13:52,150] request method GET
+DEBUG   [2019-02-25 19:16:31,231] я в логине
+DEBUG   [2019-02-25 19:16:31,237] request method GET
+DEBUG   [2019-02-25 19:16:37,469] я в логине
+DEBUG   [2019-02-25 19:16:37,470] request method GET
+DEBUG   [2019-02-25 19:18:53,740] я в логине
+DEBUG   [2019-02-25 19:18:53,741] request method GET
+DEBUG   [2019-02-25 19:20:47,062] я в логине
+DEBUG   [2019-02-25 19:20:47,063] request method GET
+DEBUG   [2019-02-25 19:21:37,327] я в логине
+DEBUG   [2019-02-25 19:21:37,327] request method GET
+DEBUG   [2019-02-25 19:21:42,176] я в логине
+DEBUG   [2019-02-25 19:21:42,177] type
+DEBUG   [2019-02-25 19:21:42,178] login
+DEBUG   [2019-02-25 19:21:42,178] pswrd
+DEBUG   [2019-02-25 19:21:42,178] request method POST
+DEBUG   [2019-02-25 19:21:42,178] AUTH res is 
+DEBUG   [2019-02-25 19:21:42,178] AUTH res is 
+DEBUG   [2019-02-25 19:21:42,179] REG res is 
+DEBUG   [2019-02-25 19:21:42,179] REG res is 
+DEBUG   [2019-02-25 19:23:17,140] я в логине
+DEBUG   [2019-02-25 19:23:17,148] request method GET
+DEBUG   [2019-02-25 19:23:18,812] я в логине
+DEBUG   [2019-02-25 19:23:18,813] request method GET
+DEBUG   [2019-02-25 19:23:23,710] я в логине
+DEBUG   [2019-02-25 19:23:23,711] type
+DEBUG   [2019-02-25 19:23:23,712] login
+DEBUG   [2019-02-25 19:23:23,712] pswrd
+DEBUG   [2019-02-25 19:23:23,714] request method POST
+DEBUG   [2019-02-25 19:23:23,714] AUTH res is 
+DEBUG   [2019-02-25 19:23:23,715] AUTH res is 
+DEBUG   [2019-02-25 19:23:23,715] REG res is 
+DEBUG   [2019-02-25 19:23:23,715] REG res is 
+DEBUG   [2019-02-25 19:26:58,820] я в логине
+DEBUG   [2019-02-25 19:26:58,823] request method GET
+DEBUG   [2019-02-25 19:27:05,328] я в логине
+DEBUG   [2019-02-25 19:27:05,329] login
+DEBUG   [2019-02-25 19:27:05,329] 11
+DEBUG   [2019-02-25 19:27:05,329] 11
+DEBUG   [2019-02-25 19:27:05,330] request method POST
+DEBUG   [2019-02-25 19:27:05,330] AUTH res is 
+DEBUG   [2019-02-25 19:27:05,332] AUTH res is 
+DEBUG   [2019-02-25 19:27:05,335] REG res is 
+DEBUG   [2019-02-25 19:27:05,335] REG res is 
+DEBUG   [2019-02-25 19:28:11,708] я в логине
+DEBUG   [2019-02-25 19:28:11,711] request method GET
+DEBUG   [2019-02-25 19:28:20,918] я в логине
+DEBUG   [2019-02-25 19:28:20,920] type => login
+DEBUG   [2019-02-25 19:28:20,920] login => 11
+DEBUG   [2019-02-25 19:28:20,920] pswrd => 11
+DEBUG   [2019-02-25 19:28:20,921] request method POST
+DEBUG   [2019-02-25 19:28:20,921] AUTH res is 
+DEBUG   [2019-02-25 19:28:20,921] AUTH res is 
+DEBUG   [2019-02-25 19:28:20,921] REG res is 
+DEBUG   [2019-02-25 19:28:20,921] REG res is 
+DEBUG   [2019-02-25 19:29:51,466] я в логине
+DEBUG   [2019-02-25 19:29:51,470] request method GET
+DEBUG   [2019-02-25 19:29:56,704] я в логине
+DEBUG   [2019-02-25 19:29:56,705] type => login
+DEBUG   [2019-02-25 19:29:56,706] login => 11
+DEBUG   [2019-02-25 19:29:56,706] pswrd => 11
+DEBUG   [2019-02-25 19:29:56,706] request method POST
+DEBUG   [2019-02-25 19:29:56,706] AUTH res is 
+DEBUG   [2019-02-25 19:29:56,706] AUTH res is 
+DEBUG   [2019-02-25 19:30:35,166] я в логине
+DEBUG   [2019-02-25 19:30:35,170] request method GET
+DEBUG   [2019-02-25 19:30:41,490] я в логине
+DEBUG   [2019-02-25 19:30:41,491] type => login
+DEBUG   [2019-02-25 19:30:41,491] login => 11
+DEBUG   [2019-02-25 19:30:41,492] pswrd => 11
+DEBUG   [2019-02-25 19:30:41,492] request method POST
+DEBUG   [2019-02-25 19:30:41,492] AUTH res is 
+DEBUG   [2019-02-25 19:30:41,492] AUTH res is 
+DEBUG   [2019-02-25 19:32:16,063] я в логине
+DEBUG   [2019-02-25 19:32:16,066] request method GET
+DEBUG   [2019-02-25 19:32:21,332] я в логине
+DEBUG   [2019-02-25 19:32:21,334] type => login
+DEBUG   [2019-02-25 19:32:21,334] login => 11
+DEBUG   [2019-02-25 19:32:21,334] pswrd => 11
+DEBUG   [2019-02-25 19:32:21,334] request method POST
+DEBUG   [2019-02-25 19:32:21,335] AUTH res is 
+DEBUG   [2019-02-25 19:32:21,335] AUTH res is 
+DEBUG   [2019-02-25 19:33:10,803] я в логине
+DEBUG   [2019-02-25 19:33:10,807] request method GET
+DEBUG   [2019-02-25 19:33:17,041] я в логине
+DEBUG   [2019-02-25 19:33:17,042] type => login
+DEBUG   [2019-02-25 19:33:17,042] login => 11
+DEBUG   [2019-02-25 19:33:17,042] pswrd => 11
+DEBUG   [2019-02-25 19:33:17,042] request method POST
+DEBUG   [2019-02-25 19:33:17,042] block auth, result - True
+DEBUG   [2019-02-25 19:33:17,043] AUTH res is 
+DEBUG   [2019-02-25 19:33:17,043] AUTH res is 
+DEBUG   [2019-02-25 19:33:39,221] я в логине
+DEBUG   [2019-02-25 19:33:39,221] request method GET
+DEBUG   [2019-02-25 19:33:46,819] я в логине
+DEBUG   [2019-02-25 19:33:46,820] type => login
+DEBUG   [2019-02-25 19:33:46,821] login => 11
+DEBUG   [2019-02-25 19:33:46,821] pswrd => 12
+DEBUG   [2019-02-25 19:33:46,821] request method POST
+DEBUG   [2019-02-25 19:33:46,822] block auth, result - True
+DEBUG   [2019-02-25 19:33:46,822] AUTH res is 
+DEBUG   [2019-02-25 19:33:46,822] AUTH res is 
+DEBUG   [2019-02-25 19:34:27,210] я в логине
+DEBUG   [2019-02-25 19:34:27,214] request method GET
+DEBUG   [2019-02-25 19:34:34,933] я в логине
+DEBUG   [2019-02-25 19:34:34,935] type => login
+DEBUG   [2019-02-25 19:34:34,935] login => 11
+DEBUG   [2019-02-25 19:34:34,936] pswrd => 12
+DEBUG   [2019-02-25 19:34:34,936] request method POST
+DEBUG   [2019-02-25 19:34:34,937] block auth, result - False
+DEBUG   [2019-02-25 19:34:34,937] AUTH res is 
+DEBUG   [2019-02-25 19:34:34,937] AUTH res is 
+DEBUG   [2019-02-25 19:37:20,183] я в логине
+DEBUG   [2019-02-25 19:37:20,186] request method GET
+DEBUG   [2019-02-25 19:37:25,562] я в логине
+DEBUG   [2019-02-25 19:37:25,563] type => login
+DEBUG   [2019-02-25 19:37:25,564] login => 11
+DEBUG   [2019-02-25 19:37:25,564] pswrd => 12
+DEBUG   [2019-02-25 19:37:25,564] request method POST
+DEBUG   [2019-02-25 19:37:25,564] block auth, result - False
+DEBUG   [2019-02-25 19:37:25,564] AUTH res is 
+DEBUG   [2019-02-25 19:37:25,565] AUTH res is 
+DEBUG   [2019-02-25 19:39:55,943] я в логине
+DEBUG   [2019-02-25 19:39:55,946] request method GET
+DEBUG   [2019-02-25 19:39:59,979] я в логине
+DEBUG   [2019-02-25 19:39:59,980] type => login
+DEBUG   [2019-02-25 19:39:59,980] login => 11
+DEBUG   [2019-02-25 19:39:59,980] pswrd => 12
+DEBUG   [2019-02-25 19:39:59,980] request method POST
+DEBUG   [2019-02-25 19:39:59,981] block auth, result - False
+DEBUG   [2019-02-25 19:39:59,981] AUTH res is 
+DEBUG   [2019-02-25 19:39:59,981] AUTH res is 
+DEBUG   [2019-02-25 19:42:06,349] я в логине
+DEBUG   [2019-02-25 19:42:06,355] type => login
+DEBUG   [2019-02-25 19:42:06,355] login => 11
+DEBUG   [2019-02-25 19:42:06,355] pswrd => 12
+DEBUG   [2019-02-25 19:42:06,356] request method POST
+DEBUG   [2019-02-25 19:42:06,356] block auth, result - False
+DEBUG   [2019-02-25 19:42:06,356] AUTH res is 
+DEBUG   [2019-02-25 19:42:06,356] AUTH res is 
+DEBUG   [2019-02-25 19:42:48,329] я в логине
+DEBUG   [2019-02-25 19:42:48,332] type => login
+DEBUG   [2019-02-25 19:42:48,332] login => 11
+DEBUG   [2019-02-25 19:42:48,332] pswrd => 12
+DEBUG   [2019-02-25 19:42:48,332] request method POST
+DEBUG   [2019-02-25 19:42:48,332] block auth, result - False
+DEBUG   [2019-02-25 19:42:48,333] AUTH res is 
+DEBUG   [2019-02-25 19:42:48,333] AUTH res is 
+DEBUG   [2019-02-25 19:42:52,663] я в логине
+DEBUG   [2019-02-25 19:42:52,664] type => login
+DEBUG   [2019-02-25 19:42:52,664] login => 11
+DEBUG   [2019-02-25 19:42:52,665] pswrd => 12
+DEBUG   [2019-02-25 19:42:52,665] request method POST
+DEBUG   [2019-02-25 19:42:52,665] block auth, result - False
+DEBUG   [2019-02-25 19:42:52,665] AUTH res is 
+DEBUG   [2019-02-25 19:42:52,665] AUTH res is 
+DEBUG   [2019-02-26 07:34:20,147] я в логине
+DEBUG   [2019-02-26 07:34:20,150] type => login
+DEBUG   [2019-02-26 07:34:20,150] login => 11
+DEBUG   [2019-02-26 07:34:20,151] pswrd => 11
+DEBUG   [2019-02-26 07:34:20,151] request method POST
+DEBUG   [2019-02-26 07:34:20,151] block auth, result - True
+DEBUG   [2019-02-26 07:34:20,151] AUTH res is 
+DEBUG   [2019-02-26 07:34:20,152] AUTH res is 
+DEBUG   [2019-02-26 07:38:54,504] я в логине
+DEBUG   [2019-02-26 07:38:54,510] request method GET
+DEBUG   [2019-02-26 07:40:23,569] я в логине
+DEBUG   [2019-02-26 07:40:23,570] request method GET
+DEBUG   [2019-02-26 07:40:30,390] я в логине
+DEBUG   [2019-02-26 07:40:30,391] type => login
+DEBUG   [2019-02-26 07:40:30,392] login => 11
+DEBUG   [2019-02-26 07:40:30,392] pswrd => 11
+DEBUG   [2019-02-26 07:40:30,392] request method POST
+DEBUG   [2019-02-26 07:40:30,392] block auth, result - True
+DEBUG   [2019-02-26 07:40:53,519] я в логине
+DEBUG   [2019-02-26 07:40:53,522] type => login
+DEBUG   [2019-02-26 07:40:53,523] login => 11
+DEBUG   [2019-02-26 07:40:53,523] pswrd => 11
+DEBUG   [2019-02-26 07:40:53,523] request method POST
+DEBUG   [2019-02-26 07:40:53,523] block auth, result - True
+DEBUG   [2019-02-26 07:40:53,523] variables True , TRUE
+DEBUG   [2019-02-26 07:40:53,524] AUTH res is 
+DEBUG   [2019-02-26 07:40:53,524] AUTH res is 
+DEBUG   [2019-02-26 07:40:59,691] я в логине
+DEBUG   [2019-02-26 07:40:59,691] request method GET
+DEBUG   [2019-02-26 07:41:07,966] я в логине
+DEBUG   [2019-02-26 07:41:07,967] type => login
+DEBUG   [2019-02-26 07:41:07,967] login => 11
+DEBUG   [2019-02-26 07:41:07,968] pswrd => 11
+DEBUG   [2019-02-26 07:41:07,968] request method POST
+DEBUG   [2019-02-26 07:41:07,969] block auth, result - True
+DEBUG   [2019-02-26 07:41:07,969] variables True , TRUE
+DEBUG   [2019-02-26 07:41:07,969] AUTH res is 
+DEBUG   [2019-02-26 07:41:07,969] AUTH res is 
+DEBUG   [2019-02-26 07:45:52,104] я в логине
+DEBUG   [2019-02-26 07:45:52,106] request method GET
+DEBUG   [2019-02-26 07:45:59,231] я в логине
+DEBUG   [2019-02-26 07:45:59,232] type => login
+DEBUG   [2019-02-26 07:45:59,233] login => 11
+DEBUG   [2019-02-26 07:45:59,234] pswrd => 11
+DEBUG   [2019-02-26 07:45:59,234] request method POST
+DEBUG   [2019-02-26 07:47:10,753] я в логине
+DEBUG   [2019-02-26 07:47:10,755] request method GET
+DEBUG   [2019-02-26 07:47:16,675] я в логине
+DEBUG   [2019-02-26 07:47:16,676] type => login
+DEBUG   [2019-02-26 07:47:16,677] login => 11
+DEBUG   [2019-02-26 07:47:16,677] pswrd => 11
+DEBUG   [2019-02-26 07:47:16,677] request method POST
+DEBUG   [2019-02-26 07:49:44,456] я в логине
+DEBUG   [2019-02-26 07:49:44,458] request method GET
+DEBUG   [2019-02-26 07:49:49,069] я в логине
+DEBUG   [2019-02-26 07:49:49,070] type => login
+DEBUG   [2019-02-26 07:49:49,070] login => 11
+DEBUG   [2019-02-26 07:49:49,071] pswrd => 11
+DEBUG   [2019-02-26 07:49:49,071] request method POST
+DEBUG   [2019-02-26 07:50:18,552] я в логине
+DEBUG   [2019-02-26 07:50:18,554] request method GET
+DEBUG   [2019-02-26 07:50:23,453] я в логине
+DEBUG   [2019-02-26 07:50:23,454] type => login
+DEBUG   [2019-02-26 07:50:23,454] login => 11
+DEBUG   [2019-02-26 07:50:23,454] pswrd => 11
+DEBUG   [2019-02-26 07:50:23,455] request method POST
+DEBUG   [2019-02-26 07:51:04,120] я в логине
+DEBUG   [2019-02-26 07:51:04,122] request method GET
+DEBUG   [2019-02-26 07:51:08,869] я в логине
+DEBUG   [2019-02-26 07:51:08,870] type => login
+DEBUG   [2019-02-26 07:51:08,871] login => 11
+DEBUG   [2019-02-26 07:51:08,871] pswrd => 11
+DEBUG   [2019-02-26 07:51:08,871] request method POST
+DEBUG   [2019-02-26 07:51:08,973] []
+DEBUG   [2019-02-26 07:51:08,974] block auth, result - True
+DEBUG   [2019-02-26 07:51:08,974] variables True , TRUE
+DEBUG   [2019-02-26 07:51:08,974] AUTH res is True
+DEBUG   [2019-02-26 07:51:08,975] AUTH res is TRUE
+DEBUG   [2019-02-26 08:01:34,732] я в логине
+DEBUG   [2019-02-26 08:01:34,734] request method GET
+DEBUG   [2019-02-26 08:01:41,449] я в логине
+DEBUG   [2019-02-26 08:01:41,450] type => login
+DEBUG   [2019-02-26 08:01:41,450] login => 11
+DEBUG   [2019-02-26 08:01:41,450] pswrd => 11
+DEBUG   [2019-02-26 08:01:41,451] request method POST
+DEBUG   [2019-02-26 08:02:17,948] я в логине
+DEBUG   [2019-02-26 08:02:17,951] type => login
+DEBUG   [2019-02-26 08:02:17,952] login => 11
+DEBUG   [2019-02-26 08:02:17,952] pswrd => 11
+DEBUG   [2019-02-26 08:02:17,952] request method POST
+DEBUG   [2019-02-26 08:02:17,996] []
+DEBUG   [2019-02-26 08:02:17,996] AUTH res is False
+DEBUG   [2019-02-26 08:02:17,996] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 08:02:23,937] я в логине
+DEBUG   [2019-02-26 08:02:23,938] type => login
+DEBUG   [2019-02-26 08:02:23,938] login => 11
+DEBUG   [2019-02-26 08:02:23,938] pswrd => 11
+DEBUG   [2019-02-26 08:02:23,938] request method POST
+DEBUG   [2019-02-26 08:02:23,960] []
+DEBUG   [2019-02-26 08:02:23,960] AUTH res is False
+DEBUG   [2019-02-26 08:02:23,960] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 08:04:56,154] я в логине
+DEBUG   [2019-02-26 08:04:56,157] type => login
+DEBUG   [2019-02-26 08:04:56,157] login => 11
+DEBUG   [2019-02-26 08:04:56,158] pswrd => 11
+DEBUG   [2019-02-26 08:04:56,158] request method POST
+DEBUG   [2019-02-26 08:04:56,208] []
+DEBUG   [2019-02-26 08:04:56,208] AUTH res is False
+DEBUG   [2019-02-26 08:04:56,208] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 08:04:56,208] <SecureCookieSession {'mistake': 'Пользователь с таким RB не найден', 'status': 'login'}>
+DEBUG   [2019-02-26 08:06:48,283] я в логине
+DEBUG   [2019-02-26 08:06:48,284] request method GET
+DEBUG   [2019-02-26 08:06:53,246] я в логине
+DEBUG   [2019-02-26 08:06:53,247] type => login
+DEBUG   [2019-02-26 08:06:53,247] login => 11
+DEBUG   [2019-02-26 08:06:53,247] pswrd => 11
+DEBUG   [2019-02-26 08:06:53,247] request method POST
+DEBUG   [2019-02-26 08:06:53,271] []
+DEBUG   [2019-02-26 08:06:53,271] AUTH res is False
+DEBUG   [2019-02-26 08:06:53,272] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 08:06:53,273] <SecureCookieSession {'mistake': 'Пользователь с таким RB не найден', 'status': 'login'}>
+DEBUG   [2019-02-26 08:09:21,650] я в логине
+DEBUG   [2019-02-26 08:09:21,650] request method GET
+DEBUG   [2019-02-26 08:09:25,285] я в логине
+DEBUG   [2019-02-26 08:09:25,286] type => login
+DEBUG   [2019-02-26 08:09:25,286] login => 11
+DEBUG   [2019-02-26 08:09:25,287] pswrd => 11
+DEBUG   [2019-02-26 08:09:25,287] request method POST
+DEBUG   [2019-02-26 08:09:25,305] []
+DEBUG   [2019-02-26 08:09:25,305] AUTH res is False
+DEBUG   [2019-02-26 08:09:25,306] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 08:09:25,306] <SecureCookieSession {'mistake': 'Пользователь с таким RB не найден', 'status': 'login'}>
+DEBUG   [2019-02-26 08:10:36,999] я в логине
+DEBUG   [2019-02-26 08:10:37,000] request method GET
+DEBUG   [2019-02-26 08:10:41,155] я в логине
+DEBUG   [2019-02-26 08:10:41,155] type => login
+DEBUG   [2019-02-26 08:10:41,156] login => 11
+DEBUG   [2019-02-26 08:10:41,156] pswrd => 11
+DEBUG   [2019-02-26 08:10:41,156] request method POST
+DEBUG   [2019-02-26 08:10:41,215] []
+DEBUG   [2019-02-26 08:10:41,215] AUTH res is False
+DEBUG   [2019-02-26 08:10:41,215] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 08:10:41,216] <SecureCookieSession {'mistake': 'Пользователь с таким RB не найден', 'status': 'login'}>
+DEBUG   [2019-02-26 12:52:45,475] я в логине
+DEBUG   [2019-02-26 12:52:45,478] request method GET
+DEBUG   [2019-02-26 12:52:50,229] я в логине
+DEBUG   [2019-02-26 12:52:50,230] type => login
+DEBUG   [2019-02-26 12:52:50,230] login => 11
+DEBUG   [2019-02-26 12:52:50,231] pswrd => 11
+DEBUG   [2019-02-26 12:52:50,231] request method POST
+DEBUG   [2019-02-26 12:52:50,295] []
+DEBUG   [2019-02-26 12:52:50,295] AUTH res is False
+DEBUG   [2019-02-26 12:52:50,295] AUTH res is Пользователь с таким RB не найден
+DEBUG   [2019-02-26 12:52:50,295] <SecureCookieSession {'mistake': 'Пользователь с таким RB не найден', 'status': 'login'}>
+DEBUG   [2019-02-26 12:53:05,609] я в логине
+DEBUG   [2019-02-26 12:53:05,610] type => login
+DEBUG   [2019-02-26 12:53:05,610] login => rb063066
+DEBUG   [2019-02-26 12:53:05,611] pswrd => 11235813
+DEBUG   [2019-02-26 12:53:05,611] request method POST
+DEBUG   [2019-02-26 12:53:05,665] [('RB063066', None, 'admin')]
+DEBUG   [2019-02-26 12:54:43,409] я в логине
+DEBUG   [2019-02-26 12:54:43,416] request method GET
+DEBUG   [2019-02-26 12:54:53,864] я в логине
+DEBUG   [2019-02-26 12:54:53,866] type => login
+DEBUG   [2019-02-26 12:54:53,866] login => rb063066
+DEBUG   [2019-02-26 12:54:53,867] pswrd => 11235813
+DEBUG   [2019-02-26 12:54:53,867] request method POST
+DEBUG   [2019-02-26 12:54:53,935] ('RB063066', None, 'admin')
+DEBUG   [2019-02-26 12:54:53,935] AUTH res is False
+DEBUG   [2019-02-26 12:54:53,935] AUTH res is Некорректно указан RB пользователя или пароль
+DEBUG   [2019-02-26 12:54:53,936] <SecureCookieSession {'mistake': 'Некорректно указан RB пользователя или пароль', 'status': 'login'}>
+DEBUG   [2019-02-26 12:55:10,230] я в логине
+DEBUG   [2019-02-26 12:55:10,230] type => register
+DEBUG   [2019-02-26 12:55:10,231] login => 11
+DEBUG   [2019-02-26 12:55:10,232] pswrd => 11235813
+DEBUG   [2019-02-26 12:55:10,233] pswrd_check => 11235813
+DEBUG   [2019-02-26 12:55:10,233] request method POST
+DEBUG   [2019-02-26 12:55:10,288] registrate query result None
+DEBUG   [2019-02-26 12:56:19,188] я в логине
+DEBUG   [2019-02-26 12:56:19,190] request method GET
+DEBUG   [2019-02-26 12:56:29,777] я в логине
+DEBUG   [2019-02-26 12:56:29,778] type => register
+DEBUG   [2019-02-26 12:56:29,778] login => 11
+DEBUG   [2019-02-26 12:56:29,778] pswrd => 1123
+DEBUG   [2019-02-26 12:56:29,778] pswrd_check => 1123
+DEBUG   [2019-02-26 12:56:29,779] request method POST
+DEBUG   [2019-02-26 12:56:29,838] registrate query result None
+DEBUG   [2019-02-26 12:57:20,683] я в логине
+DEBUG   [2019-02-26 12:57:20,685] request method GET
+DEBUG   [2019-02-26 12:57:33,678] я в логине
+DEBUG   [2019-02-26 12:57:33,679] type => register
+DEBUG   [2019-02-26 12:57:33,679] login => 11
+DEBUG   [2019-02-26 12:57:33,679] pswrd => 1123
+DEBUG   [2019-02-26 12:57:33,679] pswrd_check => 1123
+DEBUG   [2019-02-26 12:57:33,680] request method POST
+DEBUG   [2019-02-26 12:57:33,740] registrate query result None
+DEBUG   [2019-02-26 12:57:33,740] REG res is False
+DEBUG   [2019-02-26 12:57:33,740] REG res is Пользователю не доступна регистрация
+DEBUG   [2019-02-26 12:57:33,740] <SecureCookieSession {'mistake': 'Пользователю не доступна регистрация', 'status': 'register'}>
+DEBUG   [2019-02-26 12:57:48,547] я в логине
+DEBUG   [2019-02-26 12:57:48,548] type => register
+DEBUG   [2019-02-26 12:57:48,549] login => rb063066
+DEBUG   [2019-02-26 12:57:48,549] pswrd => 11235813
+DEBUG   [2019-02-26 12:57:48,550] pswrd_check => 11235813
+DEBUG   [2019-02-26 12:57:48,550] request method POST
+DEBUG   [2019-02-26 12:57:48,581] registrate query result ('RB063066', None, 'admin')
+DEBUG   [2019-02-26 12:58:56,504] я в логине
+DEBUG   [2019-02-26 12:58:56,507] request method GET
+DEBUG   [2019-02-26 12:59:39,435] я в логине
+DEBUG   [2019-02-26 12:59:39,437] type => register
+DEBUG   [2019-02-26 12:59:39,437] login => rb063066
+DEBUG   [2019-02-26 12:59:39,438] pswrd => 11235813
+DEBUG   [2019-02-26 12:59:39,438] pswrd_check => 11235813
+DEBUG   [2019-02-26 12:59:39,438] request method POST
+DEBUG   [2019-02-26 12:59:39,485] registrate query result ('RB063066', None, 'admin')
+DEBUG   [2019-02-26 13:00:07,757] я в логине
+DEBUG   [2019-02-26 13:00:07,761] request method GET
+DEBUG   [2019-02-26 13:00:22,624] я в логине
+DEBUG   [2019-02-26 13:00:22,625] type => register
+DEBUG   [2019-02-26 13:00:22,626] login => rb063066
+DEBUG   [2019-02-26 13:00:22,626] pswrd => 11235813
+DEBUG   [2019-02-26 13:00:22,626] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:00:22,626] request method POST
+DEBUG   [2019-02-26 13:02:52,961] я в логине
+DEBUG   [2019-02-26 13:02:52,964] request method GET
+DEBUG   [2019-02-26 13:03:11,299] я в логине
+DEBUG   [2019-02-26 13:03:11,300] type => register
+DEBUG   [2019-02-26 13:03:11,301] login => rb063066
+DEBUG   [2019-02-26 13:03:11,302] pswrd => 11235813
+DEBUG   [2019-02-26 13:03:11,302] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:03:11,302] request method POST
+DEBUG   [2019-02-26 13:03:11,373] ошибка при задании пароля column "c71c8821e219dfa33dd17f521660b398" does not exist
+LINE 1: ...ate users set password_hash = rb063066 where rb = c71c8821e2...
+                                                             ^
+
+DEBUG   [2019-02-26 13:07:32,908] я в логине
+DEBUG   [2019-02-26 13:07:32,910] request method GET
+DEBUG   [2019-02-26 13:07:45,941] я в логине
+DEBUG   [2019-02-26 13:07:45,944] type => register
+DEBUG   [2019-02-26 13:07:45,944] login => rb063066
+DEBUG   [2019-02-26 13:07:45,944] pswrd => 11235813
+DEBUG   [2019-02-26 13:07:45,945] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:07:45,945] request method POST
+DEBUG   [2019-02-26 13:07:45,974] update users set password_hash = '122aef280fd365587a304000aa5805de' where rb = 'rb063066'
+DEBUG   [2019-02-26 13:08:22,085] я в логине
+DEBUG   [2019-02-26 13:08:22,087] request method GET
+DEBUG   [2019-02-26 13:08:40,940] я в логине
+DEBUG   [2019-02-26 13:08:40,941] type => register
+DEBUG   [2019-02-26 13:08:40,941] login => rb063066
+DEBUG   [2019-02-26 13:08:40,941] pswrd => 11235813
+DEBUG   [2019-02-26 13:08:40,941] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:08:40,942] request method POST
+DEBUG   [2019-02-26 13:08:40,985] update users set password_hash = '122aef280fd365587a304000aa5805de' where rb = 'rb063066'
+DEBUG   [2019-02-26 13:08:40,989] REG res is True
+DEBUG   [2019-02-26 13:08:40,989] REG res is Пользователю задан пароль
+DEBUG   [2019-02-26 13:09:40,653] я в логине
+DEBUG   [2019-02-26 13:09:40,656] request method GET
+DEBUG   [2019-02-26 13:09:57,090] я в логине
+DEBUG   [2019-02-26 13:09:57,091] type => register
+DEBUG   [2019-02-26 13:09:57,091] login => rb063066
+DEBUG   [2019-02-26 13:09:57,091] pswrd => 11235813
+DEBUG   [2019-02-26 13:09:57,091] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:09:57,091] request method POST
+DEBUG   [2019-02-26 13:09:57,130] update users set password_hash = '122aef280fd365587a304000aa5805de' where rb = 'rb063066'
+DEBUG   [2019-02-26 13:09:57,134] REG res is True
+DEBUG   [2019-02-26 13:09:57,135] REG res is Пользователю задан пароль
+DEBUG   [2019-02-26 13:11:31,087] я в логине
+DEBUG   [2019-02-26 13:11:31,092] request method GET
+DEBUG   [2019-02-26 13:11:44,723] я в логине
+DEBUG   [2019-02-26 13:11:44,724] type => register
+DEBUG   [2019-02-26 13:11:44,724] login => rb063066
+DEBUG   [2019-02-26 13:11:44,724] pswrd => 11235813
+DEBUG   [2019-02-26 13:11:44,724] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:11:44,724] request method POST
+DEBUG   [2019-02-26 13:11:44,789] update users set password_hash = '122aef280fd365587a304000aa5805de' where rb = 'RB063066'
+DEBUG   [2019-02-26 13:11:44,799] REG res is True
+DEBUG   [2019-02-26 13:11:44,799] REG res is Пользователю задан пароль
+DEBUG   [2019-02-26 13:12:06,002] я в логине
+DEBUG   [2019-02-26 13:12:06,004] request method GET
+DEBUG   [2019-02-26 13:12:18,371] я в логине
+DEBUG   [2019-02-26 13:12:18,372] type => login
+DEBUG   [2019-02-26 13:12:18,372] login => rb063066
+DEBUG   [2019-02-26 13:12:18,372] pswrd => 11235813
+DEBUG   [2019-02-26 13:12:18,373] request method POST
+DEBUG   [2019-02-26 13:12:18,410] ('RB063066', '122aef280fd365587a304000aa5805de', 'admin')
+DEBUG   [2019-02-26 13:12:18,411] AUTH res is False
+DEBUG   [2019-02-26 13:12:18,411] AUTH res is Некорректно указан RB пользователя или пароль
+DEBUG   [2019-02-26 13:12:18,411] <SecureCookieSession {'logged_in': True, 'mistake': 'Некорректно указан RB пользователя или пароль', 'role': 'admin', 'status': 'login'}>
+DEBUG   [2019-02-26 13:14:46,065] я в логине
+DEBUG   [2019-02-26 13:14:46,068] type => login
+DEBUG   [2019-02-26 13:14:46,069] login => rb063066
+DEBUG   [2019-02-26 13:14:46,069] pswrd => 11235813
+DEBUG   [2019-02-26 13:14:46,069] request method POST
+DEBUG   [2019-02-26 13:14:46,070] hashed password c71c8821e219dfa33dd17f521660b398
+DEBUG   [2019-02-26 13:14:46,128] ('RB063066', '122aef280fd365587a304000aa5805de', 'admin')
+DEBUG   [2019-02-26 13:14:46,128] AUTH res is False
+DEBUG   [2019-02-26 13:14:46,129] AUTH res is Некорректно указан RB пользователя или пароль
+DEBUG   [2019-02-26 13:14:46,129] <SecureCookieSession {'logged_in': True, 'mistake': 'Некорректно указан RB пользователя или пароль', 'role': 'admin', 'status': 'login'}>
+DEBUG   [2019-02-26 13:19:19,717] я в логине
+DEBUG   [2019-02-26 13:19:19,720] type => register
+DEBUG   [2019-02-26 13:19:19,720] login => rb063066
+DEBUG   [2019-02-26 13:19:19,720] pswrd => 11235813
+DEBUG   [2019-02-26 13:19:19,720] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:19:19,721] request method POST
+DEBUG   [2019-02-26 13:19:19,721] pswrd 11235813
+DEBUG   [2019-02-26 13:19:19,721] hashed pswrd c71c8821e219dfa33dd17f521660b398
+DEBUG   [2019-02-26 13:19:19,781] update users set password_hash = '122aef280fd365587a304000aa5805de' where rb = 'RB063066'
+DEBUG   [2019-02-26 13:19:19,785] REG res is True
+DEBUG   [2019-02-26 13:19:19,786] REG res is Пользователю задан пароль
+DEBUG   [2019-02-26 13:34:37,423] я в логине
+DEBUG   [2019-02-26 13:34:37,431] request method GET
+DEBUG   [2019-02-26 13:34:49,733] я в логине
+DEBUG   [2019-02-26 13:34:49,734] type => login
+DEBUG   [2019-02-26 13:34:49,734] login => rb063066
+DEBUG   [2019-02-26 13:34:49,735] pswrd => 11235813
+DEBUG   [2019-02-26 13:34:49,735] request method POST
+DEBUG   [2019-02-26 13:34:49,735] hashed password c71c8821e219dfa33dd17f521660b398
+DEBUG   [2019-02-26 13:34:49,751] ('RB063066', '122aef280fd365587a304000aa5805de', 'admin')
+DEBUG   [2019-02-26 13:34:49,752] AUTH res is False
+DEBUG   [2019-02-26 13:34:49,752] AUTH res is Некорректно указан RB пользователя или пароль
+DEBUG   [2019-02-26 13:34:49,752] <SecureCookieSession {'logged_in': True, 'mistake': 'Некорректно указан RB пользователя или пароль', 'role': 'admin', 'status': 'login'}>
+DEBUG   [2019-02-26 13:38:56,572] я в логине
+DEBUG   [2019-02-26 13:38:56,575] type => register
+DEBUG   [2019-02-26 13:38:56,575] login => rb063066
+DEBUG   [2019-02-26 13:38:56,576] pswrd => 11235813
+DEBUG   [2019-02-26 13:38:56,576] pswrd_check => 11235813
+DEBUG   [2019-02-26 13:38:56,576] request method POST
+DEBUG   [2019-02-26 13:38:56,576] pswrd 11235813
+DEBUG   [2019-02-26 13:38:56,576] hashed pswrd c71c8821e219dfa33dd17f521660b398
+DEBUG   [2019-02-26 13:38:56,624] update users set password_hash = 'c71c8821e219dfa33dd17f521660b398' where rb = 'RB063066'
+DEBUG   [2019-02-26 13:38:56,632] REG res is True
+DEBUG   [2019-02-26 13:38:56,632] REG res is Пользователю задан пароль
+DEBUG   [2019-02-26 13:39:54,835] я в логине
+DEBUG   [2019-02-26 13:39:54,836] request method GET
+DEBUG   [2019-02-26 13:40:05,794] я в логине
+DEBUG   [2019-02-26 13:40:05,795] type => login
+DEBUG   [2019-02-26 13:40:05,795] login => rb063066
+DEBUG   [2019-02-26 13:40:05,795] pswrd => 11235813
+DEBUG   [2019-02-26 13:40:05,795] request method POST
+DEBUG   [2019-02-26 13:40:05,796] hashed password c71c8821e219dfa33dd17f521660b398
+DEBUG   [2019-02-26 13:40:05,850] ('RB063066', 'c71c8821e219dfa33dd17f521660b398', 'admin')
+DEBUG   [2019-02-26 13:40:05,850] AUTH res is True
+DEBUG   [2019-02-26 13:40:05,851] AUTH res is 
+DEBUG   [2019-02-26 14:00:22,467] я в логине
+DEBUG   [2019-02-26 14:00:22,469] request method GET
+DEBUG   [2019-02-26 14:00:54,292] я в логине
+DEBUG   [2019-02-26 14:00:54,293] type => login
+DEBUG   [2019-02-26 14:00:54,293] login => rb063066
+DEBUG   [2019-02-26 14:00:54,294] pswrd => 11235813
+DEBUG   [2019-02-26 14:00:54,294] request method POST
+DEBUG   [2019-02-26 14:00:54,294] hashed password c71c8821e219dfa33dd17f521660b398
+DEBUG   [2019-02-26 14:00:54,336] ('RB063066', 'c71c8821e219dfa33dd17f521660b398', 'admin')
+DEBUG   [2019-02-26 14:00:54,337] AUTH res is True
+DEBUG   [2019-02-26 14:00:54,338] AUTH res is 
+DEBUG   [2019-02-26 16:20:22,050] я в логине
+DEBUG   [2019-02-26 16:20:22,054] request method GET
+DEBUG   [2019-02-26 16:36:49,317] я в логине
+DEBUG   [2019-02-26 16:36:49,319] request method GET
+DEBUG   [2019-02-26 22:06:23,544] я в логине
+DEBUG   [2019-02-26 22:06:23,547] request method GET

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meeting Minutes</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <link rel="shortcut icon" sizes="32x32" href="./rosbank_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/MainStyles.css">
+</head>
+
+<body>
+<script type="text/babel">
+
+/*let today = new Date().toISOString().slice(0, 10);*/
+
+
+class Bullet extends React.Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+            currentSelectedValue: this.props.selected,
+            items: []
+        };
+
+        this.onChange = this.onChange.bind(this);
+        this.onClick = this.onClick.bind(this);
+        this.deleteItem = this.deleteItem.bind(this);
+    }
+
+    onChange(event){
+        event.preventDefault();
+        this.setState({
+            currentSelectedValue: event.target.value
+
+        })
+        console.log(this.state);
+    }
+
+    onClick(event){
+        event.preventDefault();
+        let currentItems = this.state.items;
+        let currentSelectedValue = this.state.currentSelectedValue;
+        if (currentItems.indexOf(currentSelectedValue) > -1){
+            alert("Поле уже добавлено");
+        } else {
+            currentItems.push(currentSelectedValue);
+        }
+
+        this.setState({
+            items: currentItems
+        })
+        console.log(currentItems)
+    }
+
+    deleteItem(event){
+        event.preventDefault();
+        let itemsList = this.state.items;
+        itemsList = itemsList.filter(item => item !== event.target.name);
+        this.setState({
+            items: itemsList
+        })
+    }
+    render(){
+        let optionsList = this.props.options;
+        console.log(optionsList);
+        let options = Object.keys(optionsList).map((option) =>
+            <option value={option}>{optionsList[option]}</option>
+        );
+        return (
+            <div className="bullet">
+            <form >
+                <h3>{this.props.header}</h3>
+                <select onChange = {this.onChange}>
+                    {options}
+                </select>
+                <button onClick={this.onClick}>добавить</button>
+            </form>
+            <ItemsList items={this.state.items} deleteItem={this.deleteItem}/>
+            </div>
+
+        )
+
+    }
+}
+
+
+
+class ItemsList extends React.Component {
+
+
+    render() {
+        let items = this.props.items;
+
+        if (items.length > 0){
+            const listItems = items.map((item, index) =>
+                <li key={index} className="bullet_points">
+                    <div>{item}</div>
+                    <textarea placeholder="Комментарий"></textarea>
+                    <button onClick={this.props.deleteItem } name={item}>Удалить</button>
+                </li>
+            );
+
+            return <ul>{listItems}</ul>
+        } else {
+            return (
+                <p>List IS empty</p>
+            )
+        }
+
+    }
+
+
+}
+
+class SingleQuestionBlock extends React.Component{
+    constructor(props){
+        super(props);
+
+        this.state = {cn: true};
+
+        this.handleChange = this.handleChange.bind(this);
+
+    }
+    handleChange(event){
+        let flag = this.state.cn;
+        this.setState({
+            cn : flag ==true ? false : true
+        })
+    }
+
+    render() {
+        return(
+            <div>
+            <h3>{this.props.header}</h3>
+            <form>
+                <input type="checkbox" onClick= {this.handleChange}></input>
+                <textarea hidden = {this.state.cn}></textarea>
+            </form>
+            </div>
+        )
+    }
+
+}
+
+class HeadingData extends React.Component{
+    render() {
+        return (
+            <div>
+                <table>
+                <tbody>
+                    <tr>
+                        <td>Менеджер</td>
+                        <td>Кто-то тамович</td>
+                    </tr>
+                    <tr>
+                        <td>ID клиента</td>
+                        <td>999999</td>
+                    </tr>
+                    <tr>
+                        <td>ФИО клиента</td>
+                        <td>Иванов Иван Иванович</td>
+                    </tr>
+                    <tr>
+                        <td>Тип встречи</td>
+                        <td>Встреча</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+        )
+    }
+
+}
+
+class MainPage extends React.Component {
+
+
+    render() {
+        let personalInfoHeader = 'Личная жизнь/хобби';
+        let personalInfoSelected = 'collections';
+        let personalInfoOptions = {
+            collections: "коллекции",
+            socialLife: "Социальная жизнь",
+            education: "Образование",
+            interests: "Интересы",
+            cuisine: "Предпочитаемая кухня",
+            family: "Семья",
+            riskProfile: "Инвестиционный риск-профиль"
+        };
+
+        let businessHeader = 'Карьера/Бизнес';
+        let businessSelected = 'new_employer';
+        let businessOptions = {
+            new_employer: "новое место работы",
+            promotion: "карьерное продвижение",
+            own_business: "развитие бизнеса"
+        };
+
+        let poductInterestHeader = "Интерес к продуктам Росбанка (подписки/предложения)";
+        let productInterestSelected = 'funds';
+        let productInterestTypes = {
+            funds: "Фонды",
+            structuredProducts: "Структурные продукты",
+            securities: "Акции/Облигации",
+            iliSli: "ИСЖ/НСЖ",
+            assetsControl: "Управление активами",
+            deposits: "Депозиты"
+        };
+
+        let OtherBankHeader = "Отношения с другими банками (брокерами) / наличие продуктов";
+        let OtherBankSelected = 'funds';
+        let OtherBankProducts = {
+            funds: "Фонды",
+            structuredProducts: "Структурные продукты",
+            securities: "Акции/Облигации",
+            iliSli: "ИСЖ/НСЖ",
+            assetsControl: "Управление активами",
+            deposits: "Депозиты"
+        };
+
+        let KYCheader = "Документы KYC";
+        let PRIVheader = "Интерес к SG Private Banking";
+        let OtherinfoHeader = "Другое";
+        let NextMeetingdate = "дата следубющей встречи";
+
+
+        return (
+
+            <div>
+                <HeadingData/>
+                <Bullet options={personalInfoOptions} header={personalInfoHeader} selected ={personalInfoSelected}/>
+                <Bullet options={businessOptions} header={businessHeader} selected={businessSelected}/>
+                <Bullet options={productInterestTypes} header={poductInterestHeader} selected={productInterestSelected}/>
+                <Bullet options={OtherBankProducts} header={OtherBankHeader} selected={OtherBankSelected}/>
+                <SingleQuestionBlock header={KYCheader}/>
+                <SingleQuestionBlock header={PRIVheader}/>
+                <SingleQuestionBlock header={OtherinfoHeader}/>
+                <SingleQuestionBlock header={NextMeetingdate}/>
+
+            </div>
+        )
+    }
+
+
+}
+
+
+ReactDOM.render(
+    <MainPage />,
+    document.getElementById('app')
+);
+
+
+</script>
+
+<div id="app">
+
+</div>
+</body>
+</html>
