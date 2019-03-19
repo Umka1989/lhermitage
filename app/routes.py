@@ -1,8 +1,10 @@
 from app import app, logger
 import psycopg2
 from hashlib import md5
-from flask import render_template, redirect, session, url_for, request
+from flask import render_template, redirect, session, url_for, request, jsonify
 from contextlib import closing
+import json
+
 """
 db block
 """
@@ -166,10 +168,19 @@ def login():
 def meeting_minuts():
     return render_template('meeting_minuts.html')
 
+@app.route('/find_client')
+def find_client():
+    return render_template('find_client.html')
 
 
+@app.route('/find', methods=['POST', 'GET'])
+def find():
+    return jsonify(result= "it works")
 
 
+@app.route('/test')
+def test():
+    return render_template('test.html')
 
 
 """

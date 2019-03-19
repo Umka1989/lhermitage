@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meeting Minutes</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <link rel="shortcut icon" sizes="32x32" href="./rosbank_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/MainStyles.css">
+</head>
+<body>
+<script type="text/babel">
+class ModalWindow extends React.Component{
+
+
+    render(){
+        return (
+            <div
+                style= {{display : this.props.flag ? 'block' : 'none'}}
+                className = "Modal">
+                <form>
+                    <input type="text" name="full_name" placeholder="Введите имя клиента"></input>
+                    <input type="text" name="bis_id" placeholder="Или код клиента в BIS"></input>
+                    <button onClick={this.props.onClick}>Button</button>
+                </form>
+
+            </div>
+        )
+    }
+}
+
+class Shower extends React.Component{
+
+    constructor(props){
+        super(props);
+
+        this.state = {shown: false};
+
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(event){
+        let shown = this.state.shown;
+        this.setState({
+            shown: (shown == true) ? false : true
+        })
+    }
+    render(){
+        return (
+            <div>
+                <h1>Отображаемый контент</h1>
+                <ModalWindow
+                    flag = {this.state.shown}
+                    onClick={this.handleClick}
+                />
+                <button onClick={this.handleClick}>Button</button>
+            </div>
+
+        )
+    }
+}
+
+ReactDOM.render(
+    <Shower />,
+    document.getElementById('app')
+)
+
+</script>
+<div id="app">
+</div>
+</body>
+</html>

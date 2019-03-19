@@ -206,7 +206,7 @@ class MainPage extends React.Component {
             structuredProducts: "Структурные продукты",
             securities: "Акции/Облигации",
             iliSli: "ИСЖ/НСЖ",
-            assetsControl: "Управление активами",
+            /*assetsControl: "Управление активами",*/
             deposits: "Депозиты"
         };
 
@@ -224,7 +224,9 @@ class MainPage extends React.Component {
         let KYCheader = "Документы KYC";
         let PRIVheader = "Интерес к SG Private Banking";
         let OtherinfoHeader = "Другое";
-        let NextMeetingdate = "дата следубющей встречи";
+        let NextMeetingdate = "дата следующей встречи";
+        let voiceOfClient =  "Голос клиента";
+        let toDoPlan= "Будующие действия";
 
 
         return (
@@ -239,7 +241,8 @@ class MainPage extends React.Component {
                 <SingleQuestionBlock header={PRIVheader}/>
                 <SingleQuestionBlock header={OtherinfoHeader}/>
                 <SingleQuestionBlock header={NextMeetingdate}/>
-
+                <SingleQuestionBlock header={voiceOfClient}/>
+                <SingleQuestionBlock header={toDoPlan}/>
             </div>
         )
     }

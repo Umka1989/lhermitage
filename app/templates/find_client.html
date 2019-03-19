@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meeting Minutes</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="shortcut icon" sizes="32x32" href="./rosbank_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/MainStyles.css">
+</head>
+<body>
+<script type="text/babel">
+
+
+
+class  FindClient extends React.Component{
+      constructor(props){
+          super(props);
+
+          this.state= {
+              'st': 'find',
+              'clients': []
+          }
+      }
+
+      findClient(event){
+          event.preventDefault();
+          const data = new FormData(event.target);
+            fetch('/find', {
+                method: 'post',
+                body: JSON.stringify(data)
+            }).then(response => {
+                return response.json();
+            }).then(jsonResponse => {
+                console.log(jsonResponse);
+            })
+          console.log(data);
+      }
+
+
+    render(){
+        return(
+        <form onSubmit={this.findClient}>
+            <input type="hidden" name="type" value="existing"></input>
+            <input id="search" name="full_name" type="text" placeholder="Введите ФИО клиента"></input>
+            <input name="client_id" type="text" placeholder="Или его код клиента с юнитом"></input>
+            <input type="submit" value="Найти"></input>
+        </form>)
+
+    }
+}
+
+class ProspectForm extends React.Component {
+    render() {
+        return(
+            <form>
+                <input type="hidden" name="type" value="existing"></input>
+                <input name="full_name" type="text" placeholder="Введите ФИО клиента"></input>
+                <input type="submit" value="Создать встречу"></input>
+            </form>
+        )
+
+    }
+}
+
+class FinderForm extends React.Component{
+    render(){
+        if (this.props.client_existing == true) {
+            return <FindClient />
+        } else {
+            return <ProspectForm />
+        };
+    }
+}
+
+class Finder extends React.Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+                'client_existing': true
+        };
+
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(event){
+        let newState = this.state.client_existing==true ? false : true ;
+        this.setState({
+            'client_existing': newState
+        })
+        console.log(this.state.client_existing);
+        console.log('Iam in')
+
+    }
+
+
+    render(){
+        return (
+            <div>
+                <h3>Форма поиска клиента</h3>
+            <form>
+                <label onClick={this.handleChange}><p>Действующий клиент</p>
+                    <input type="radio"
+                           checked={this.state.client_existing}
+                           onChange={this.handleChange}
+                    ></input>
+                </label>
+                <FinderForm client_existing={this.state.client_existing}/>
+            </form>
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(
+    <Finder />,
+    document.getElementById('app')
+);
+
+$(function(){
+
+ let langs = ["ActionScript", "AppleScript",
+     "Asp", "BASIC", "C", "C++", "Clojure", "COBOL", "ColdFusion",
+     "Erlang", "Fortran", "Groovy", "Haskell", "Java", "JavaScript", "Lisp",
+     "Perl", "PHP", "Python", "Ruby",
+     "Scala", "Scheme"];
+
+ $("#search").autocomplete({
+  source: langs
+ });
+
+});
+</script>
+<div id="app">
+</div>
+</body>
+</html>

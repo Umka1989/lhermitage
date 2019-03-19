@@ -116,7 +116,6 @@ button:hover{
 .menuElement{
     box-sizing: border-box;
     width: 50%;
-
     text-align: center;
     background-color: rgb(15, 15, 45);
 }
@@ -126,14 +125,6 @@ button:hover{
         color: white;
 }
 
-.meLeft{
-    float: left;
-
-}
-
-.meRight{
-    float: right;
-}
 
 .clearFix{
     clear: both;
@@ -146,17 +137,13 @@ button:hover{
     opacity: 0.7;
     width: 300px;
     height: 290px;
-
     margin-top: 10%;
-}
-
-
-.loginForm {
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
+
+
 
 .loginForm h3 {
     padding-top: 15px;
@@ -178,26 +165,93 @@ button:hover{
 }
 
 #future_img{
-    border: 1px solid red;
+
     box-sizing: border-box;
     width: 33%;
     float: left;
     padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 20px;
 }
 
 #lhermitage_img{
-    border: 1px solid red;
+    margin: 10px 20px 10px 20px;
+
     box-sizing: border-box;
     width: 33%;
     float: right;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
 }
 
 
 .menuItemsConteiner{
-    border: 5px solid green;
     clear: both;
 }
+
+.menuElement{
+    width:600px;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.meLeft{
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.meRight{
+    float: right;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.Modal{
+    opacity: 0.8;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    overflow: auto;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    overflow: auto;
+    border-radius: 12px;
+    background-color: dimgray/*rgb(153, 102, 255)*/;
+}
+
+.Modal * {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.Modal input{
+    margin-top: 5px;
+    width: 85%;
+    height: 25px;
+}
+
+.Modal button{
+    margin-top: 50px;
+}
+
+.Modal form{
+    margin-top: 15%;
+}
+
+.Icon {
+    width: 10px;
+    height: 10px;
+}
+
+
 
 
 

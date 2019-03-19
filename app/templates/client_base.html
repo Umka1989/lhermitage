@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meeting Minutes</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <link rel="shortcut icon" sizes="32x32" href="./rosbank_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/MainStyles.css">
+</head>
+<body>
+<noscript>
+    <h1>Test for noscript</h1>
+</noscript>
+<script type="text/babel">
+
+class HeaderSheet extends React.Component{
+    render(){
+        return(
+            <th>{this.props.headerData}</th>
+        )
+    }
+}
+
+class Sheet extends React.Component{
+    render(){
+        return(
+            <td>{this.props.contentData}</td>
+        )
+    }
+}
+
+class Row extends React.Component{
+    render(){
+        <tr>
+
+        </tr>
+    }
+}
+
+
+
+class Excel extends React.Component{
+    render(){
+        return(<p>Test</p>)
+    }
+}
+
+ReactDom.render(
+    <Excel />
+    document.getElementById('app')
+)
+</script>
+<div id="app">
+</div>
+</body>
+</html>
